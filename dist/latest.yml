@@ -1,9 +1,0 @@
-version: 2.0.0
-files:
-  - url: marketingviewer-setup-2.0.0.exe
-    sha512: SF6IOViVuR8tMMMa94wOfacmWgZ+kfPitpP18OVKzxh1Ce3x5cv5j4XFBEWtGzVusqUEbNJaRI/YzsOspxknJQ==
-    size: 35228553
-path: marketingviewer-setup-2.0.0.exe
-sha512: SF6IOViVuR8tMMMa94wOfacmWgZ+kfPitpP18OVKzxh1Ce3x5cv5j4XFBEWtGzVusqUEbNJaRI/YzsOspxknJQ==
-sha2: 12d46d19cd551aae7e1c1e36fbaff924f54c5e15b121887cdc9a237c3fa21693
-releaseDate: '2018-04-04T16:53:09.265Z'
