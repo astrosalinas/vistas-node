@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <title>{{ title }}</title>
+  <body>
+    {{> header}}
+      <div class="mdl-grid">
+        {{#if cont_ata}}
+          {{> atacado}}    
+        {{/if}}
+
+        {{#if cont_nis}}
+          {{> nissei}}
+        {{/if}}
+
+        {{#if cont_cell}}
+          {{> cellshop}}
+        {{/if}}
+
+        {{#if cont_mega}}
+          {{> mega}}
+        {{/if}}
+
+        {{#if cont_hb}}
+          {{> hbgames}}
+        {{/if}}
+
+        {{#if cont_pio}}
+          {{> pioneer}}
+        {{/if}}
+
+
+        {{#if cont_albo}}
+          {{> alborada}}
+        {{/if}}
+
+
+        {{#if cont_vis}}
+          {{> visaovip}}
+        {{/if}}
+
+
+        {{#if cont_casa}}    
+          {{> casabo}}
+        {{/if}}
+
+
+        {{#if cont_madri}}
+          {{> madridcenter}}
+        {{/if}}
+        
+      </div>
+    {{> footer}}
+  </body>
+
+</html>

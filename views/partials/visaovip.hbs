@@ -1,0 +1,66 @@
+{{#if todos}}
+  <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+    <div class='content'>
+      <div class='visaovip'>
+        <p>Visao Vip</p>        
+      </div>
+
+      <div class='table-content'>
+        <table class="mdl-data-table mdl-js-data-table">
+          <thead>
+            <tr>
+              <th class="mdl-data-table__cell--non-numeric">Producto</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each visaovip_productos}}
+              {{#if this.stock }}
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric">{{ this.product }}</td>
+                  <td>{{ this.price }}</td>
+                </tr>
+              {{else}}
+                <tr>
+                  <td class="mdl-data-table__cell--non-numeric color">{{ this.product }}</td>
+                  <td class='color'>{{ this.price }}</td>
+                </tr>
+              {{/if}}
+            {{/each}} 
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{{else}}
+  {{#if cont_ata_t }}
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet">
+      <div class='content'>
+        <div class='visaovip'>
+          <p>Visao Vip</p>        
+        </div>
+
+        <div class='table-content'>
+          <table class="mdl-data-table mdl-js-data-table">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">Producto</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#each visaovip_productos}}
+                {{#if this.stock }}
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">{{ this.product }}</td>
+                    <td>{{ this.price }}</td>
+                  </tr>
+                 {{/if}}
+              {{/each}} 
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+   {{/if}}
+{{/if}}

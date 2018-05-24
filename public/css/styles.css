@@ -1,0 +1,93 @@
+
+div.content {
+    margin-top: 15px;
+    float: left;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+div.table-content {
+    margin-left: 10px; 
+    width: 100%;
+    height: 170px;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+}
+
+table.mdl-data-table {
+    margin-left: 5px;
+    width: 100%;
+}
+
+div.atacado>p, div.nissei>p, div.cellshop>p,
+div.hbgames>p, div.pioneer>p, div.casabo>p, 
+div.madridcenter>p, div.alborada>p, div.visaovip>p,
+div.mega>p {
+    margin-top: 20px;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+.color{
+    background: rgba(251, 0, 0, 0.20);
+    color: #9E9E9E;
+}
+
+div.atacado, div.nissei, div.cellshop,
+div.hbgames, div.pioneer, div.casabo,
+div.madridcenter, div.alborada, div.visaovip,
+div.mega {
+    margin-right: 33px;
+    margin-left: 15px;
+    padding: 4px;
+    width: 100%;
+}
+
+.atacado{
+    background: #43A047;
+    
+}
+
+.nissei {
+    background-color: #F50057;
+}
+
+
+.cellshop {
+    background-color: #1976D2;
+}
+
+.hbgames {
+    background-color: #C0CA33;
+}
+
+.pioneer {
+    background-color: #795548;
+}
+
+.casabo {
+    background-color: #E84315;
+}
+
+.madridcenter {
+    background-color: #616161;
+}
+
+.alborada {
+    background-color: #512DA8;
+}
+
+.visaovip {
+    background-color: #33691E;
+}
+
+.mega {
+    background-color: #303F9F;
+
+}

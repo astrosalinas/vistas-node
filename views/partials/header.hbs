@@ -1,0 +1,24 @@
+<header class="header">
+    <div>
+        <a class="a" href="/">Productos</a>
+        <a class="a" href="/true">Todos</a>
+    </div>
+
+    <form action="/" method="post">
+        <div class="wrap2">
+            <div class="search">
+                <input name="exclude" type="text" class="searchTerm2" placeholder="Exclude" value="{{ exclude }}" />
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="search">
+                <input name="buscar" type="text" class="searchTerm" placeholder="Pesquisa" value="{{ buscar }}" />
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+</header>
+
